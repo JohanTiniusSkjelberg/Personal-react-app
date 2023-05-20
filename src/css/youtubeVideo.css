@@ -1,0 +1,13 @@
+.youtube-video-container {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 2rem;
+    flex-wrap: wrap;
+}
+
+.youtube-video-container iframe {
+    /* flex-direction: ro; */
+    margin: 0 2rem;
+    flex: 1 0 20%;
+    height: 17rem;
+}

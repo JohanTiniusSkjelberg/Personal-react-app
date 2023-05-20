@@ -1,0 +1,22 @@
+.news {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 2rem;
+    flex-wrap: wrap;
+}
+.news-item {
+    flex-direction: column;
+    margin: 0 2rem;
+    flex: 1 0 15%;
+}
+.news-item img {
+    width: 100%;
+}
+p {
+    text-decoration: none;
+    color: black;
+    margin: 0   ;
+}
+.news-item p:hover {
+    color: grey;
+}
